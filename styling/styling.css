@@ -50,4 +50,5 @@ div img {
   flex-basis: 66.7%;
   flex-grow: 0;
   flex-shrink: 0;
+  background-color: rgb(206, 202, 198);
 }

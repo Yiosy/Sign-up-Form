@@ -1,18 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,400;1,700&family=Yatra+One&display=swap");
 body {
   font-family: "Yatra one", "Courier New", Courier, monospace;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 .container {
   display: flex;
   justify-content: space-between;
 }
 .left {
-  background-color: red;
   display: flex;
+  flex-direction: column;
   flex-basis: 33.3%;
+  justify-content: space-between;
+  height: 900px;
+  background-image: url(../images/rodrigo-soares-1UF27kmDDg0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+#logo {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgba(34, 32, 32, 0.6);
+  margin-top: 170px;
+}
+div img {
+  padding-left: 160px;
+  margin: 0px;
+  width: auto;
+  height: 110px;
+}
+.text {
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 10px;
 }
 .right {
-  background-color: green;
   display: flex;
   flex-basis: 66.7%;
+  flex-grow: 0;
+  flex-shrink: 0;
 }

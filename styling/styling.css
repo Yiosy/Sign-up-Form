@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,400;1,700&family=Yatra+One&display=swap");
 body {
   font-family: "Yatra one", "Courier New", Courier, monospace;
-  margin-left: 140px;
-  margin-right: 220px;
+
+  margin: 0;
 }
 .container {
   display: flex;

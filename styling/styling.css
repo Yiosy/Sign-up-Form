@@ -57,7 +57,7 @@ div img {
   flex-grow: 0;
   flex-shrink: 0;
   background-color: rgb(206, 202, 198, 0.3);
-  padding-top: 100px;
+
   margin-right: 100px;
 }
 form {
@@ -65,13 +65,17 @@ form {
   color: white;
   background-color: rgba(143, 146, 148, 0.1);
 }
-.text {
+.text2 {
   text-align: center;
   font-size: 1.2rem;
+  padding-top: 100px;
+  color: whitesmoke;
+  padding-left: 100px;
+  padding-right: 110px;
 }
 .inputcont {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   padding: 30px;
   padding-top: 0px;
 }
@@ -79,10 +83,21 @@ form {
   display: flex;
   flex-direction: column;
 }
-.submitbut {
-  padding-top: 0px;
-  color: white;
-  border-radius: 2px;
+#submitbut {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: rgb(255, 255, 255, 0.1);
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.15s;
+  margin-bottom: 20px;
 }
 input {
   margin-right: 20px;
@@ -95,9 +110,10 @@ label {
 .bottom {
   display: flex;
   flex-direction: column;
-  align-items: space-around;
+  align-items: baseline;
+  justify-content: flex-start;
   color: white;
-  padding-bottom: 20px;
+  padding-bottom: 70px;
 }
 h2 {
   padding-left: 20px;
